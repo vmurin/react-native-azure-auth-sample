@@ -4,7 +4,10 @@
 .expo/
 
 # dependencies
-/node_modules
+node_modules/
+# generated
+build/
+.gradle/
 
 # misc
 .env.local
