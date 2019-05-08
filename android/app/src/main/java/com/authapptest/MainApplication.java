@@ -1,10 +1,9 @@
-package com.pvaapptest;
+package com.authapptest;
 
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.auth.react.AzureAuthPackage;
-import com.auth.react.AzureAuthPackage;
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.auth.react.AzureAuthPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -26,6 +25,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+          new AsyncStoragePackage(),
           new AzureAuthPackage()
       );
     }
