@@ -10,6 +10,7 @@ import {
   FlatList
 } from 'react-native';
 import AzureAuth from 'react-native-azure-auth';
+import Client from 'react-native-azure-auth/src/networking';
 
 const CLIENT_ID = 'b5d120f6-04fb-481a-88f6-XXXXXXXX' // replace the string with YOUR client ID
 
@@ -57,16 +58,12 @@ export default class Auth0Sample extends Component {
   }
 
   _onLogout = () => {
-    if (Platform.OS === 'android') {
-      this.setState({ accessToken: null, user: '' });
-    } else {
-      azureAuth.webAuth
-        .clearSession({})
-        .then(success => {
-          this.setState({ accessToken: null });
-        })
-        .catch(error => console.log(error));
-    }
+    azureAuth.webAuth
+      .clearSession({})
+      .then(success => {
+        this.setState({ accessToken: null });
+      })
+      .catch(error => console.log(error));
   };
 
   render() {
