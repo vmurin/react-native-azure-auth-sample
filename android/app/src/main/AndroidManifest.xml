@@ -32,7 +32,8 @@
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
             <data
-                android:pathPrefix="/android/com.authapptest/callback"
+                android:host="com.authapptest"
+                android:pathPrefix="/android/callback"
                 android:scheme="com.authapptest" />
         </intent-filter>              
       </activity>
