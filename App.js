@@ -33,7 +33,7 @@ export default class Auth0Sample extends Component {
       console.log('info', info)
       this.setState({ user: info.displayName, userId: tokens.userId })
     } catch (error) {
-      console.log(error)
+      console.log('Error during Azure operation', error)
     }
   };
 
@@ -51,6 +51,10 @@ export default class Auth0Sample extends Component {
       mails.value.forEach(element => {
         mailArr.push({subject: element.subject})
       });
+      if (mailArr.length === 0) {
+        mailArr.push({subject: 'No mails found'})
+      }
+      console.log('Mails: ' + mailArr.length)
       this.setState({mails: mailArr})
     } catch (error) {
       console.log(error)
@@ -61,7 +65,7 @@ export default class Auth0Sample extends Component {
     azureAuth.webAuth
       .clearSession({})
       .then(success => {
-        this.setState({ accessToken: null });
+        this.setState({ accessToken: null, user: null });
       })
       .catch(error => console.log(error));
   };
