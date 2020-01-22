@@ -63,7 +63,7 @@ export default class Auth0Sample extends Component {
 
   _onLogout = () => {
     azureAuth.webAuth
-      .clearSession({})
+      .clearSession()
       .then(success => {
         this.setState({ accessToken: null, user: null });
       })
