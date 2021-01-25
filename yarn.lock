@@ -760,10 +760,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@react-native-community/async-storage@^1.12.0", "@react-native-community/async-storage@^1.5.0":
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.12.1.tgz#25f821b4f6b13abe005ad67e47c6f1cee9f27b24"
-  integrity sha512-70WGaH3PKYASi4BThuEEKMkyAgE9k7VytBqmgPRx3MzJx9/MkspwqJGmn3QLCgHLIFUgF1pit2mWICbRJ3T3lg==
+"@react-native-async-storage/async-storage@^1.13.0":
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/@react-native-async-storage/async-storage/-/async-storage-1.13.3.tgz#bba0c69541de4da12f3a47fe07698fda84b16135"
+  integrity sha512-s/7KyzFxS3WesYn5RrfRg1Pyz5EYDZAJxIxIuzmJZ1FlvpvaZGAZq9xJmVN2OG6S6NhfiY8Tszkau15hHreRag==
   dependencies:
     deep-assign "^3.0.0"
 
@@ -3489,13 +3489,11 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-azure-auth@^1.6.1:
+"react-native-azure-auth@file:../react-native-azure-auth":
   version "1.6.2"
-  resolved "https://registry.yarnpkg.com/react-native-azure-auth/-/react-native-azure-auth-1.6.2.tgz#ceab26c1cef2406ab22a87c785b4f1f357a0865f"
-  integrity sha512-zwq9C+nny/hpB/KGP/Ok/zRbORAxS0gN2gJPrdIovcvCdeUcBq7p2rFftdN+schuIGBgKtvAYiKDAj4Cx6qpSQ==
   dependencies:
     "@babel/runtime" "^7.4.5"
-    "@react-native-community/async-storage" "^1.5.0"
+    "@react-native-async-storage/async-storage" "^1.13.0"
     js-base64 "github:vmurin/js-base64"
     url "^0.11.0"
 
