@@ -3489,8 +3489,10 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-"react-native-azure-auth@file:../react-native-azure-auth":
-  version "1.6.2"
+react-native-azure-auth@^1.7.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/react-native-azure-auth/-/react-native-azure-auth-1.8.0.tgz#2fc7a33d076f28951ee7105a7df5d231fc9cb690"
+  integrity sha512-5pamWTMStWXhkwTvk5TEoGX4y3mEZ2oEypiJX31bPZkKXIKFF7mFGAmrt6wG2mA0m0jCaRC8xajGDFXdqkzjGw==
   dependencies:
     "@babel/runtime" "^7.4.5"
     "@react-native-async-storage/async-storage" "^1.13.0"
@@ -4191,9 +4193,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.22"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.22.tgz#960df60a5f911ea8f1c818f3747b99c6e177eae3"
-  integrity sha512-YUxzMjJ5T71w6a8WWVcMGM6YWOTX27rCoIQgLXiWaxqXSx9D7DNjiGWn1aJIRSQ5qr0xuhra77bSIh6voR/46Q==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-es@^3.1.9:
   version "3.3.9"
