@@ -1591,9 +1591,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-assign@^3.0.0:
   version "3.0.0"
@@ -3489,8 +3489,10 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-"react-native-azure-auth@file:../react-native-azure-auth":
-  version "1.6.2"
+react-native-azure-auth@^1.7.0:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/react-native-azure-auth/-/react-native-azure-auth-1.8.4.tgz#17df25ade6a171c802f748592767bbbcd978ff0b"
+  integrity sha512-AHM94V8jPRrN0AqZwC7w4PkfSl60V34X1MTb1F/juQzAxQQoapTCerF6lHfVAbZi++EvKzpcujMjbBlz5b4QRw==
   dependencies:
     "@babel/runtime" "^7.4.5"
     "@react-native-async-storage/async-storage" "^1.13.0"
